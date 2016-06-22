@@ -1,0 +1,19 @@
+---
+- name: manager1
+  box: ubuntu/trusty64
+  ram: 1024
+  cpus: 1
+  ip: 10.0.0.2
+
+- name: worker1
+  box: ubuntu/trusty64
+  ram: 1024
+  cpus: 1
+  ip: 10.0.0.3
+
+- name: worker2
+  box: ubuntu/trusty64
+  ram: 1024
+  cpus: 1
+  ip: 10.0.0.4
+
