@@ -2,6 +2,6 @@
 # should fail again
 # adfsdgdfh
 apt::pin { 'foo':
-  packages   => '*',
+  packages => '*',
   priority => 0,
 }
