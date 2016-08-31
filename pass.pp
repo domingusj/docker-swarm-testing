@@ -2,4 +2,3 @@
 apt::pin { 'foo':
   packages    => '*',
   priority => 0,
-}
