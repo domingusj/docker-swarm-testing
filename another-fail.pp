@@ -2,6 +2,6 @@
 # should fail again
 # adfsdgdfh and now its fixed
 apt::pin { 'foo':
-  packages => '*',
+  packages  => '*',
   priority => 0,
 }
