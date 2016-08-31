@@ -1,5 +1,5 @@
 # sfdsdgdfhdg pin a release in apt, useful for unstable repositories
 apt::pin { 'foo':
-  packages => '*',
+  packages   => '*',
   priority => 0,
 }
